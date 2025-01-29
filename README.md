@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/statevdev/ipgeobase/actions/workflows/main.yml/badge.svg)](https://github.com/statevdev/ipgeobase/actions)
+
 # Ipgeobase
 
 TODO: Delete this and the text below, and describe your gem
