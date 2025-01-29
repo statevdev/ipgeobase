@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "ipgeobase"
+require 'simplecov'
+SimpleCov.start
 
-require "minitest/autorun"
+$LOAD_PATH.unshift File.expand_path('../lib', __dir__)
+require 'ipgeobase'
+require 'webmock/minitest'
+require 'minitest/autorun'
+require 'minitest-power_assert'
